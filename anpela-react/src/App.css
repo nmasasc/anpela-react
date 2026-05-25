@@ -133,7 +133,7 @@
     .button-icon {
       height: 18px;
       width: 18px;
-    }
+    }  
   }
 
   @media (max-width: 1024px) {
@@ -181,4 +181,78 @@
     right: 0;
     border-right-color: var(--border);
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+
+  padding: 20px 60px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+
+  list-style: none;
+}
+
+section {
+  height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 0 60px;
+}
+
+h2 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+
+  max-width: 500px;
+}
+
+button {
+  width: fit-content;
+
+  padding: 15px 30px;
+
+  border: none;
+
+  background: white;
+  color: black;
+
+  font-size: 1rem;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: fit-content;
 }
