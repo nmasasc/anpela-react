@@ -6,7 +6,7 @@ function Hero() {
       <p>
         Modern streetwear built for Everyone.
       </p>
-      <div className="button-group">  
+      <div className="hero-buttons">  
       <button>Shop Now</button>
       <button>Your favorites</button>
       </div>
